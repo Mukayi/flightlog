@@ -6,6 +6,12 @@
 
 一款离线优先的 macOS 数字飞行护照应用，使用 SwiftUI、SwiftData、MapKit 与 Swift Charts 构建（支持 macOS 15+）。
 
+## 下载与安装
+
+- **直接下载安装包（Apple Silicon / M 系列芯片）**：[**FlightLog-macOS-arm64.zip**](https://github.com/Mukayi/flightlog/raw/main/Releases/FlightLog-macOS-arm64.zip)
+- 解压后将 `FlightLog.app` 拖入 `/Applications`（应用程序）即可。
+- *注：应用使用本地开源构建（未绑定付费 Apple 开发者公证），首次打开若提示无法验证开发者，请在「系统设置 → 隐私与安全性」中点击“仍要打开”，或在终端执行 `xattr -cr /Applications/FlightLog.app`。*
+
 ## 核心功能
 
 - **飞行护照与登机牌**：录入、编辑、筛选每一次航班，按起降机场时区保留当地时刻与历史记录。
