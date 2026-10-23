@@ -1,5 +1,7 @@
 # FlightLog 飞行日志
 
+![FlightLog Hero Banner](Assets/FlightLogHero.gif)
+
 > 一个突发奇想的 vibecoding 产物。FlightLog 飞行日志，可以记录你的航线，记录天上的轨迹，记录抵达的地方。
 
 一款离线优先的 macOS 数字飞行护照应用，使用 SwiftUI、SwiftData、MapKit 与 Swift Charts 构建（支持 macOS 15+）。
