@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+._*
+
+# SwiftPM / Xcode build artifacts
+.build/
+.build*/
+.swiftpm/
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.profraw
+*.profdata
+
+# Packaged app & test visual outputs
+dist/
+Artifacts/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Personal flight backups & exports (never commit user data)
+flightlog-*.csv
+flightlog-*.json
+
+# Internal development reports & scratch plans
+*-report.md
+docs/superpowers/
